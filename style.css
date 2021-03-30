@@ -1,9 +1,17 @@
+:root {
+  --orange: #fe5f28
+}
+
 body {
   background: white;
 }
 
 .navbar-info {
   background: #0a1227;
+}
+
+.logo-container {
+  max-width: 110px;
 }
 
 .relative::before {
@@ -45,4 +53,70 @@ svg {
   position: relative;
   width: 60px;
   height: 30px;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  letter-spacing: -2;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.nav-link.active {
+  color: var(--orange) !important;
+  border-bottom: 7px solid var(--orange);
+}
+
+.hero h1 {
+  font-size: 3.3rem;
+  font-family: sans-serif;
+  font-weight: 650;
+}
+
+hr.decorative {
+  width: 70px;
+  height: 10px!important;
+}
+
+.reservation {
+  background: #dcdddf;
+}
+
+.reservation h2 {
+  font-weight: bold;
+}
+
+.reservation input, .reservation textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.w-47 {
+  width: 47%;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+/*#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+/*.hero .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
 }

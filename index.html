@@ -13,55 +13,100 @@
 </head>
 <body>
   <div class="container-fluid p-0">
-      <div class="row d-none d-xl-flex justify-content-center navbar-info">
-        <div class="col col-md-10">
-          <div class="row justify-content-between text-light py-4">
-            <div class="col-4">
-              <img class="img-fluid w-25" src="assets/img/LOGO-many.png">
-              <div><p class="text-orange">Opening Hour:</p></div>
-              <div><p>Mon - Sat 8:00 - 17:30, Sunday CLOSED</p></div>
+    <div class="row d-none d-xl-flex justify-content-center navbar-info mx-0">
+      <div class="col col-md-10">
+        <div class="d-flex justify-content-between text-light py-4">
+          <div class="d-flex">
+            <div class="d-flex align-items-center logo-container">
+              <img class="img-fluid" src="assets/img/LOGO-many.png">
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-end">
-              <div class="d-flex align-items-center">
-                <a href="#" class="me-3 text-decoration-none"><i class="bi-twitter fs-3 d-flex align-items-center"></i></a>
-                <a href="#" class="me-3 text-decoration-none"><i class="bi-facebook fs-3 d-flex align-items-center"></i></a>
-                <form class="d-flex me-3 me-xl-0 w-100">
-                  <input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-primary w-25" type="submit">Buscar</button>
-                </form>
+            <div class="d-flex flex-column justify-content-center ms-5 ps-5">
+              <p class="text-orange m-0">Opening Hour:</p>
+              <p class="m-0">Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="d-flex flex-column justify-content-center me-2">
+              <p class="text-orange m-0">Follow us</p>
+              <div class="d-flex">
+                <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
+                <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
+                <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
+                <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
               </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <p class="m-0"><span class="text-orange">Free call</span> <b>+1 234 456 78910</b></p>
+              <p class="m-0">Call us now 24/7 customer support</p>
             </div>
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-xl navbar-light text-uppercase py-0">
-        <div class="container-fluid justify-content-center">
-          <a class="navbar-brand d-xl-none w-50" href="#"><img class="img-fluid" src="assets/img/LOGO-many.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-center fs-3 fs-lg-5 fs-xl-4">
-              <li class="nav-item">
-                <a class="nav-link text-uppercase active" aria-current="page" href="#">home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">about us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">contact us</a>
-              </li>
-            </ul>
+    </div>
+    <nav class="navbar navbar-expand-xl navbar-light text-uppercase pb-0">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand d-xl-none w-50" href="#"><img class="img-fluid" src="assets/img/LOGO-many.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-center fs-5">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase active" aria-current="page" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero py-5 row justify-content-center mx-0 bg-dark">
+      <div class="col-12" id="myVideo"><!-- The video -->
+        <!--
+        <video autoplay muted loop>
+          <source src="assets/video/hero-background.mp4" type="video/mp4">
+        </video>-->
+      </div>
+      <div class="col-md-10 my-5 content">
+        <div class="row">
+          <div class="col-7 mt-5">
+            <div class="text-light">
+              <h1 class="">We create the desired Home for you</h1>
+              <hr class="text-orange decorative">
+              <h2 class="fs-4 w-75">Contact us to find out your ideas and build them together</h2>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="reservation text-dark py-5 px-4">
+              <h2>Make a Reservation</h2>
+              <form class="d-flex flex-wrap justify-content-between">
+                <input type="text" name="name" placeholder="Name" class="w-100 mb-3 py-1">
+                <input type="text" name="email" placeholder="Email" class="w-47 mb-3 py-1">
+                <input type="text" name="telephone" placeholder="Telephone" class="w-47 mb-3 py-1">
+                <input type="text" name="birthdate" placeholder="mm/dd/yyyy" class="w-100 mb-3 py-1">
+                <input type="text" name="service" placeholder="Choose a service" class="w-100 mb-3 py-1">
+                <textarea name="msg" placeholder="Message" class="w-100 mb-3 py-1"></textarea>
+                <button type="submit" class="btn btn-dark w-100 p-2">SEND</button>
+              </form>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
   </div>
+
+  <img class="img-fluid mt-3" src="assets/Prueba-Silvera-Enterprises-Freelance.jpg">
+
   <div class="container py-5">
     <div class="row services">
       <div class="col-5 orange">
@@ -76,9 +121,6 @@
             <p>We help you repair your plumbing. Our service is of quality</p>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        <img class="img-fluid" src="assets/Prueba-Silvera-Enterprises-Freelance.jpg">
       </div>
     </div>
   </div>
