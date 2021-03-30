@@ -1,5 +1,9 @@
 body {
-  background: #312f31 !important;
+  background: white;
+}
+
+.navbar-info {
+  background: #0a1227;
 }
 
 .relative::before {
