@@ -59,6 +59,10 @@ svg {
   color: var(--orange);
 }
 
+.text-orange-2 {
+  color: var(--orange-2);
+}
+
 .nav-item {
   padding: 0 8px;
 }
@@ -226,6 +230,10 @@ hr.decorative {
   background: #091326;
 }
 
+.testimonials {
+  background: #f8f9fb;
+}
+
 .testimonials .content {
   background: url(assets/img/bg_1.jpg);
   background-size: cover;
@@ -268,4 +276,48 @@ hr.decorative {
   border: 2px solid white;
   background-image: none;
   background: #fca62c;
+}
+
+.newsletter {
+  background: #fb7400;
+}
+
+.newsletter form button {
+  background: #fbad02;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.newsletter form input[type="email"] {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.footer-nav {
+  background: #061437;
+}
+
+.footer-nav hr.decorative {
+  width: 90px;
+  height: 4px!important;
+  opacity: 1;
+  color: var(--orange-2);
+}
+
+footer {
+  background: #040e27;
+}
+
+footer a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: aliceblue;
+}
+
+footer img {
+  max-width: 100px;
 }
