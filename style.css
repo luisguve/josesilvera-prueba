@@ -1,6 +1,7 @@
 :root {
   --orange: #fe5f28;
   --orange-2: #fb7400;
+  --bs-font-sans-serif: sans-serif;
 }
 
 body {
@@ -182,9 +183,9 @@ hr.decorative {
   background: transparent!important;
 }
 
-.about .services {
+/*.about .services {
   width: 35%;
-}
+}*/
 
 .service.interior {
   color: black;
@@ -320,4 +321,16 @@ footer a:hover {
 
 footer img {
   max-width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .why-us img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*.w-md-50 {
+    width: 50%!important;
+  }*/
 }

@@ -13,14 +13,14 @@
 </head>
 <body>
   <div class="container-fluid p-0">
-    <div class="row d-none d-xl-flex justify-content-center navbar-info mx-0">
-      <div class="col col-md-10">
+    <div class="row d-none d-md-flex justify-content-center navbar-info mx-0">
+      <div class="col col-lg-10">
         <div class="d-flex justify-content-between text-light py-4">
           <div class="d-flex">
-            <div class="d-flex align-items-center logo-container">
+            <div class="logo-container">
               <img class="img-fluid" src="assets/img/LOGO-many.png">
             </div>
-            <div class="d-flex flex-column justify-content-center ms-5 ps-5">
+            <div class="d-flex flex-column justify-content-center ms-2 ms-lg-5 ps-lg-5">
               <p class="text-orange m-0">Opening Hour:</p>
               <p class="m-0">Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
             </div>
@@ -43,28 +43,30 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-xl navbar-light text-uppercase pb-0">
-      <div class="container-fluid justify-content-center">
-        <a class="navbar-brand d-xl-none w-50" href="#"><img class="img-fluid" src="assets/img/LOGO-many.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-md navbar-dark text-uppercase pt-0 pt-md-1 pb-0">
+      <div class="container-fluid justify-content-center px-0">
+        <div class="navbar-info d-md-none w-100 align-items-center d-flex justify-content-around">
+          <div class="navbar-brand logo-container"><img class="img-fluid" src="assets/img/LOGO-many.png"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-center fs-5">
+          <ul class="navbar-nav w-100 justify-content-center">
             <li class="nav-item">
-              <a class="nav-link text-uppercase active" aria-current="page" href="#">home</a>
+              <a class="nav-link text-dark text-uppercase active" aria-current="page" href="#">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#">about us</a>
+              <a class="nav-link text-dark text-uppercase" href="#">about us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#">services</a>
+              <a class="nav-link text-dark text-uppercase" href="#">services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#">gallery</a>
+              <a class="nav-link text-dark text-uppercase" href="#">gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#">contact us</a>
+              <a class="nav-link text-dark text-uppercase" href="#">contact us</a>
             </li>
           </ul>
         </div>
@@ -78,14 +80,14 @@
         <div class="row justify-content-center mx-0 py-5">
           <div class="col-md-10 my-5">
             <div class="row">
-              <div class="col-7 mt-5">
+              <div class="col-md-7 mt-5">
                 <div class="text-light">
                   <h1 class="">We create the desired Home for you</h1>
                   <hr class="text-orange decorative">
                   <h2 class="fs-4 w-75">Contact us to find out your ideas and build them together</h2>
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-md-5 d-none d-md-block">
                 <div class="reservation text-dark py-5 px-4">
                   <h2>Make a Reservation</h2>
                   <form class="d-flex flex-wrap justify-content-between">
@@ -104,36 +106,73 @@
         </div>
       </div>
     </div>
+    <div class="row mx-0">
+      <div class="col d-md-none px-0">
+        <div class="reservation text-dark py-5 px-4">
+          <h2 class="text-center">Make a Reservation</h2>
+          <form class="d-flex flex-wrap justify-content-between">
+            <input type="text" name="name" placeholder="Name" class="w-100 mb-3 py-1">
+            <input type="text" name="email" placeholder="Email" class="w-47 mb-3 py-1">
+            <input type="text" name="telephone" placeholder="Telephone" class="w-47 mb-3 py-1">
+            <input type="text" name="birthdate" placeholder="mm/dd/yyyy" class="w-100 mb-3 py-1">
+            <input type="text" name="service" placeholder="Choose a service" class="w-100 mb-3 py-1">
+            <textarea name="msg" placeholder="Message" class="w-100 mb-3 py-1"></textarea>
+            <button type="submit" class="btn btn-dark w-100 p-2">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex d-md-none justify-content-center navbar-info mx-0">
+      <div class="col-12 text-light py-4">
+        <p><span class="text-orange ">Opening Hour:</span> Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
+        <p class="mb-0"><span class="text-orange">Free call</span> <b>+1 234 456 78910</b></p>
+        <p class="">Call us now 24/7 customer support</p>
+        <p class="text-orange mb-0">Follow us</p>
+        <div class="d-flex">
+          <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
+          <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
+          <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
+          <a href="#" class="me-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
+        </div>
+      </div>
+    </div>
     <div class="row justify-content-center mx-0 py-5 why-us">
-      <div class="col-md-10 my-5">
-        <div class="d-flex content">
-          <div class="w-50 pe-2">
+      <div class="col-lg-10 my-5 px-0 px-lg-1">
+        <div class="row content mx-0">
+          <div class="col-md-6 pe-md-2 d-flex align-items-center">
             <img class="img-fluid w-100" src="assets/img/about.jpg">
           </div>
-          <div class="w-50 d-flex flex-column justify-content-center">
-            <div class="ms-4 mb-4">
-              <p class="text-orange text-uppercase mb-0"><b>Welcome to construction company</b></p>
-              <h2 class="fs-1 bold">Why work with us?</h2>
+          <div class="col-md-6 d-flex flex-column justify-content-center mt-5 mt-md-0">
+            <div class="ms-sm-4 mb-sm-4 d-flex align-items-center">
+              <span class="icon d-md-none position-static d-inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                  <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+                </svg>
+              </span>
+              <div class="ms-4 ms-md-0">
+                <p class="text-orange text-uppercase mb-0"><b>Welcome to construction company</b></p>
+                <h2 class="fs-1 bold">Why work with us?</h2>
+              </div>
             </div>
-            <div class="ms-4 mt-4">
+            <div class="ms-md-4 mt-4">
               <p class="ms-2 mb-3 pe-3 fs-5"><b>We are a company with highly qualified and responsible personnel who will perform the best jobs for your home.</b></p>
-              <div class="d-flex flex-column justify-content-between ms-4 ps-4">
-                <div class="d-flex align-items-center mb-4">
-                  <p class="d-inline-block me-2 mb-0"><b>Quality Construction</b></p>
+              <div class="d-flex flex-column justify-content-between ms-md-4 ps-md-4">
+                <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                  <p class="me-2 mb-0"><b>Quality Construction</b></p>
                   <img src="assets/img/work-4.jpg" class="rounded">
                 </div>
-                <div class="d-flex align-items-center mb-4">
-                  <p class="d-inline-block me-2 mb-0"><b>Professional Liability</b></p>
+                <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                  <p class="me-2 mb-0"><b>Professional Liability</b></p>
                   <img src="assets/img/work-2.jpg" class="rounded">
                 </div>
-                <div class="d-flex align-items-center mb-4">
-                  <p class="d-inline-block me-3 mb-0"><b>Dedicated to clients</b></p>
+                <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                  <p class="me-3 mb-0"><b>Dedicated to clients</b></p>
                   <img src="assets/img/work-7.jpg" class="rounded">
                 </div>
               </div>
             </div>
           </div>
-          <span class="icon">
+          <span class="icon d-none d-md-flex">
             <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
               <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
             </svg>
@@ -142,9 +181,9 @@
       </div>
     </div>
     <div class="row justify-content-center mx-0 py-5 about">
-      <div class="col-md-10 my-5 d-flex justify-content-between">
-        <div class="w-50 pe-1 d-flex flex-column align-items-center">
-          <div>
+      <div class="col-lg-10 my-5 row justify-content-between">
+        <div class="col-md-6 pe-md-1 d-flex flex-column align-items-center mb-3 mb-md-0">
+          <div class="mb-2 mb-md-5">
             <h1 class="fs-5 text-uppercase fw-bold text-orange">about us</h1>
             <h2 class="fw-bold fs-1">Best Provider for Industrial Services</h2>
             <p class="fw-bold fs-5">We are a unique company dedicated to our clients</p>
@@ -153,7 +192,7 @@
               <button class="btn btn-light fw-bold">Our vision</button>
               <button class="btn btn-light fw-bold">Our value</button>
             </div>
-            <div class="card mt-2 mb-5">
+            <div class="card mt-2">
               <div class="card-body">
                 <p class="card-text">We are an expert group in architectural design and interior design with a residential approach, where we generate creatve, authentic and innovative solutions, achieving results that exceed the expectations of each client.</p>
               </div>
@@ -161,7 +200,7 @@
           </div>
           <button class="btn btn-dark mx-auto text-uppercase">contact us!</button>
         </div>
-        <div class="services">
+        <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
           <h1 class="fs-5 text-uppercase fw-bold text-orange">services</h1>
           <h2 class="fw-bold fs-1">know what we offer you</h2>
           <div class="d-flex flex-column">
@@ -202,25 +241,25 @@
         </div>
       </div>
     </div>
-     <div class="row justify-content-center mx-0 py-5 projects">
-      <div class="col-md-10 my-5 d-flex flex-column align-items-center">
+    <div class="row justify-content-center mx-0 py-5 projects">
+      <div class="col-lg-10 my-5 d-flex flex-column align-items-center">
         <div>
           <h1 class="fs-5 text-uppercase fw-bold text-orange">our projects</h1>
           <h2 class="fw-bold fs-1 text-light mb-3">know what we do</h2>
-          <div class="row mb-5">
-            <div class="col px-0">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 px-xl-0 mb-2 mb-xl-0">
               <img class="img-fluid" src="assets/img/work-5.jpg">
             </div>
-            <div class="col px-0">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 px-xl-0 mb-2 mb-xl-0">
               <img class="img-fluid" src="assets/img/work-6.jpg">
             </div>
-            <div class="col px-0">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 px-xl-0 mb-2 mb-xl-0">
               <img class="img-fluid" src="assets/img/work-7.jpg">
             </div>
-            <div class="col px-0">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 px-xl-0 mb-2 mb-xl-0">
               <img class="img-fluid" src="assets/img/work-8.jpg">
             </div>
-            <div class="col px-0">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 px-xl-0 mb-2 mb-xl-0">
               <img class="img-fluid" src="assets/img/work-1.jpg">
             </div>
           </div>
@@ -229,14 +268,14 @@
       </div>
     </div>
     <div class="row justify-content-center mx-0 py-5 testimonials">
-      <div class="col-md-10 my-5 content px-0">
-        <div class="overlay p-5">
-          <div class="d-flex my-4">
-            <div class="w-50 d-flex flex-column align-items-center justify-content-center px-5">
-              <h1 class="fs-5 text-uppercase fw-bold text-light">view testimonials</h1>
-              <h2 class="fw-bold fs-1 text-uppercase text-light text-center mb-3">for us it is very important to know the opinions of our clients</h2>
+      <div class="col-lg-10 my-5 content px-0">
+        <div class="overlay py-5 px-1 px-md-5">
+          <div class="row my-4">
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center px-3 px-md-4 px-lg-5">
+              <h1 class="small text-uppercase fw-bold text-light">view testimonials</h1>
+              <h2 class="fw-bold fs-3 fs-md-1 text-uppercase text-light text-center mb-3">for us it is very important to know the opinions of our clients</h2>
             </div>
-            <div class="w-50 d-flex flex-column align-items-center justify-content-center p-4">
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center py-4 px-md-4">
               <div class="pic w-100">
                 <img class="w-100" src="assets/img/person_4.jpg">
                 <span class="play-icon d-flex justify-content-center align-items-center">
@@ -244,7 +283,7 @@
                     <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
                   </svg>
                 </span>
-                <div class="w-75 rounded text-orange bg-light py-3 text-center name"><em class="text-uppercase fw-bold fs-5">jeff freshman</em></div>
+                <div class="w-75 rounded text-orange bg-light py-3 text-center name"><em class="text-uppercase fw-bold fs-6">jeff freshman</em></div>
               </div>
               <div class="d-flex mt-4 pt-3">
                 <input class="form-check-input mx-1" type="radio" checked name="person" id="person-1">
@@ -259,12 +298,12 @@
       </div>
     </div>
     <div class="row justify-content-center mx-0 py-5 social">
-      <div class="col-md-10 my-5 px-0 d-flex flex-wrap">
-        <div class="w-50">
+      <div class="col-lg-10 my-5 px-0 row">
+        <div class="col-md-6">
           <h1 class="fs-5 text-uppercase fw-bold text-orange">our social media</h1>
           <h2 class="fw-bold fs-1 mb-3">Follow us on Social Media</h2>
         </div>
-        <div class="w-50 d-flex justify-content-end align-items-center pe-5">
+        <div class="col-md-6 d-flex justify-content-center justify-content-md-end align-items-center pe-5">
           <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi-twitter fs-1 d-flex align-items-center"></i></a>
           <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi-facebook fs-1 d-flex align-items-center"></i></a>
           <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi-youtube fs-1 d-flex align-items-center"></i></a>
@@ -273,47 +312,47 @@
         </div>
       </div>
       <div class="col-md-10 my-5 px-0">
-        <div class="newsletter row py-5 justify-content-center">
-          <div class="col-5">
-            <h3 class="text-light fw-bold">Subscribe to our Newlsetter</h3>
+        <div class="newsletter row py-5 justify-content-center m-0">
+          <div class="col-md-6 col-lg-5 d-flex align-items-center justify-content-center">
+            <h3 class="text-light fw-bold text-center text-md-start fs-5 mb-md-0">Subscribe to our Newlsetter</h3>
           </div>
-          <div class="col-5 d-flex">
+          <div class="col-md-6 col-lg-5 d-flex">
             <form class="d-flex w-100">
               <input type="email" name="email" placeholder="Enter email address" class="w-75 form-control">
-              <button type="submit" class="w-25 text-light fw-bold">Subscribe</button>
+              <button type="submit" class="w-25 text-light fw-bold">Send</button>
             </form>
           </div>
         </div>
       </div>
     </div>
     <div class="row justify-content-center mx-0 py-5 footer-nav">
-      <div class="col-md-10 my-5 px-0 d-flex">
-        <div class="d-flex flex-column me-5">
+      <div class="col-lg-10 my-5 px-lg-0 row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4 d-flex flex-column me-lg-5">
           <h3 class="fw-bold text-orange-2">Office Contact</h3>
-          <hr class="decorative">
+          <hr class="decorative mt-1">
           <p class="text-light"><i class="bi bi-geo-alt-fill me-3 text-light"></i>123 Street, New York, USA</p>
           <p class="text-light"><i class="bi bi-telephone-fill me-3 text-light"></i>+012 345 6789</p>
           <p class="text-light"><i class="bi bi-envelope-fill me-3 text-light"></i>info@example.com</p>
-          <div class="row text-light">
-            <a href="#" class="col border border-light rounded mx-1 d-flex align-items-center justify-content-center p-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
-            <a href="#" class="col border border-light rounded mx-1 d-flex align-items-center justify-content-center p-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
-            <a href="#" class="col border border-light rounded mx-1 d-flex align-items-center justify-content-center p-3 text-decoration-none text-light"><i class="bi-youtube fs-5 d-flex align-items-center"></i></a>
-            <a href="#" class="col border border-light rounded mx-1 d-flex align-items-center justify-content-center p-3 text-decoration-none text-light"><i class="bi-instagram fs-5 d-flex align-items-center"></i></a>
-            <a href="#" class="col border border-light rounded mx-1 d-flex align-items-center justify-content-center p-3 text-decoration-none text-light"><i class="bi-linkedin fs-5 d-flex align-items-center"></i></a>
+          <div class="d-flex flex-wrap text-light mb-3 mb-md-0">
+            <a href="#" class="border border-light rounded mx-1 d-flex align-items-center justify-content-center p-2 p-md-3 text-decoration-none text-light"><i class="bi-twitter fs-5 d-flex align-items-center"></i></a>
+            <a href="#" class="border border-light rounded mx-1 d-flex align-items-center justify-content-center p-2 p-md-3 text-decoration-none text-light"><i class="bi-facebook fs-5 d-flex align-items-center"></i></a>
+            <a href="#" class="border border-light rounded mx-1 d-flex align-items-center justify-content-center p-2 p-md-3 text-decoration-none text-light"><i class="bi-youtube fs-5 d-flex align-items-center"></i></a>
+            <a href="#" class="border border-light rounded mx-1 d-flex align-items-center justify-content-center p-2 p-md-3 text-decoration-none text-light"><i class="bi-instagram fs-5 d-flex align-items-center"></i></a>
+            <a href="#" class="border border-light rounded mx-1 d-flex align-items-center justify-content-center p-2 p-md-3 text-decoration-none text-light"><i class="bi-linkedin fs-5 d-flex align-items-center"></i></a>
           </div>
         </div>
-        <div class="d-flex flex-column mx-5 ps-5">
+        <div class="col-12 col-sm-6 col-md-4 d-flex flex-column mx-lg-5 ps-sm-3 ps-lg-5">
           <h3 class="fw-bold text-orange-2">Services Areas</h3>
-          <hr class="decorative">
+          <hr class="decorative mt-1">
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Building Construction</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>House Renovation</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Architecture Design</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Interior Design</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Painting</a>
         </div>
-        <div class="d-flex flex-column ms-5 ps-5">
+        <div class="col-12 col-sm-6 col-md-4 d-inline-flex flex-column ms-lg-5 ps-sm-5">
           <h3 class="fw-bold text-orange-2">Useful pages</h3>
-          <hr class="decorative">
+          <hr class="decorative mt-1">
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>About us</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Services</a>
           <a class="text-light mb-3" href="#"><i class="bi bi-arrow-right-short me-3 text-light"></i>Gallery</a>
@@ -323,8 +362,8 @@
     </div>
     <footer class="row justify-content-center mx-0 py-2 text-light">
       <div class="col-md-10 my-2 px-0 d-flex flex-column align-items-center">
-        <p>&copy; Copyright <span class="text-orange">Company Name.</span> All Rights Reserved</p>
-        <p>This website was designed and developed by <a href="josesilvera.com">JoseSilvera.com</a></p>
+        <p class="text-center">&copy; Copyright <span class="text-orange">Company Name.</span> All Rights Reserved</p>
+        <p class="text-center px-1">This website was designed and developed by <a href="josesilvera.com">JoseSilvera.com</a></p>
         <img src="assets/img/Logo-JS-White-Wshadow.png">
       </div>
     </footer>
