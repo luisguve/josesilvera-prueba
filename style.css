@@ -1,5 +1,6 @@
 :root {
-  --orange: #fe5f28
+  --orange: #fe5f28;
+  --orange-2: #fb7400;
 }
 
 body {
@@ -22,7 +23,6 @@ body {
   content: "";
   width: 25px;
   height: 25px;
-  background-color: #312f31;
   border-radius: 50%;
   z-index: 1;
 }
@@ -83,6 +83,7 @@ svg {
 hr.decorative {
   width: 70px;
   height: 10px!important;
+  opacity: 1;
 }
 
 .reservation {
@@ -99,24 +100,121 @@ hr.decorative {
   border-bottom: 1px solid lightgrey;
 }
 
+.reservation form button {
+  background-color: #2f374a!important;
+}
+
 .w-47 {
   width: 47%;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-/*#myVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.hero {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;;
+  position: relative;
 }
 
-/* Add some content at the bottom of the video/page */
-/*.hero .content {
+.hero video {
   position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  top: 0;
+  left: 0;
+  object-fit: cover;
   width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.hero .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 55, 74, 0.6);
+  position: relative;
+  z-index: 1;
+}
+
+.why-us img {
+  width: 90px;
+}
+
+.why-us .content {
+  position: relative;
+  z-index: 1;
+}
+
+.why-us .icon {
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  background: var(--orange);
+  top: 50%;
+  left: 46%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us h2 {
+  font-weight: 650;
+}
+
+.about {
+  background: #f9f9f9;
+}
+
+.about .mission .btn {
+  width: 32%;
+  background: white;
+  border: 1px solid lightgrey;
+}
+
+.about .mission .btn.active {
+  color: white;
+  background: var(--orange-2);
+}
+
+.about .card {
+  background: transparent!important;
+}
+
+.about .services {
+  width: 35%;
+}
+
+.service.interior {
+  color: black;
+  background: #ececec;
+}
+.service.interior .relative::before {
+  background: var(--orange-2);
+}
+.service.interior .relative::after {
+  border-color: grey;
+}
+.service.interior svg {
+  color: #030e27;
+}
+
+.service.plumbing {
+  color: white;
+  background: var(--orange-2);
+}
+.service.plumbing .relative::before {
+  background: white;
+}
+.service.plumbing svg {
+  color: #030e27;
+}
+
+.service.painting {
+  color: white;
+  background: #040e27;
+}
+.service.painting .relative::before {
+  background: #363e51;
+}
+.service.painting svg {
+  color: var(--orange-2);
 }

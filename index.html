@@ -70,34 +70,133 @@
         </div>
       </div>
     </nav>
-    <div class="hero py-5 row justify-content-center mx-0 bg-dark">
-      <div class="col-12" id="myVideo"><!-- The video -->
-        <!--
-        <video autoplay muted loop>
-          <source src="assets/video/hero-background.mp4" type="video/mp4">
-        </video>-->
-      </div>
-      <div class="col-md-10 my-5 content">
-        <div class="row">
-          <div class="col-7 mt-5">
-            <div class="text-light">
-              <h1 class="">We create the desired Home for you</h1>
-              <hr class="text-orange decorative">
-              <h2 class="fs-4 w-75">Contact us to find out your ideas and build them together</h2>
+    <div class="hero bg-dark">
+      <video><!-- The video -->
+        <source src="assets/video/hero-background.mp4" type="video/mp4">
+      </video>
+      <div class="h-100 overlay">
+        <div class="row justify-content-center mx-0 py-5">
+          <div class="col-md-10 my-5">
+            <div class="row">
+              <div class="col-7 mt-5">
+                <div class="text-light">
+                  <h1 class="">We create the desired Home for you</h1>
+                  <hr class="text-orange decorative">
+                  <h2 class="fs-4 w-75">Contact us to find out your ideas and build them together</h2>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="reservation text-dark py-5 px-4">
+                  <h2>Make a Reservation</h2>
+                  <form class="d-flex flex-wrap justify-content-between">
+                    <input type="text" name="name" placeholder="Name" class="w-100 mb-3 py-1">
+                    <input type="text" name="email" placeholder="Email" class="w-47 mb-3 py-1">
+                    <input type="text" name="telephone" placeholder="Telephone" class="w-47 mb-3 py-1">
+                    <input type="text" name="birthdate" placeholder="mm/dd/yyyy" class="w-100 mb-3 py-1">
+                    <input type="text" name="service" placeholder="Choose a service" class="w-100 mb-3 py-1">
+                    <textarea name="msg" placeholder="Message" class="w-100 mb-3 py-1"></textarea>
+                    <button type="submit" class="btn btn-dark w-100 p-2">SEND</button>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-5">
-            <div class="reservation text-dark py-5 px-4">
-              <h2>Make a Reservation</h2>
-              <form class="d-flex flex-wrap justify-content-between">
-                <input type="text" name="name" placeholder="Name" class="w-100 mb-3 py-1">
-                <input type="text" name="email" placeholder="Email" class="w-47 mb-3 py-1">
-                <input type="text" name="telephone" placeholder="Telephone" class="w-47 mb-3 py-1">
-                <input type="text" name="birthdate" placeholder="mm/dd/yyyy" class="w-100 mb-3 py-1">
-                <input type="text" name="service" placeholder="Choose a service" class="w-100 mb-3 py-1">
-                <textarea name="msg" placeholder="Message" class="w-100 mb-3 py-1"></textarea>
-                <button type="submit" class="btn btn-dark w-100 p-2">SEND</button>
-              </form>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mx-0 py-5 why-us">
+      <div class="col-md-10 my-5">
+        <div class="d-flex content">
+          <div class="w-50 pe-2">
+            <img class="img-fluid w-100" src="assets/img/about.jpg">
+          </div>
+          <div class="w-50 d-flex flex-column justify-content-center">
+            <div class="ms-4 mb-4">
+              <p class="text-orange text-uppercase mb-0"><b>Welcome to construction company</b></p>
+              <h2 class="fs-1 bold">Why work with us?</h2>
+            </div>
+            <div class="ms-4 mt-4">
+              <p class="ms-2 mb-3 pe-3 fs-5"><b>We are a company with highly qualified and responsible personnel who will perform the best jobs for your home.</b></p>
+              <div class="d-flex flex-column justify-content-between ms-4 ps-4">
+                <div class="d-flex align-items-center mb-4">
+                  <p class="d-inline-block me-2 mb-0"><b>Quality Construction</b></p>
+                  <img src="assets/img/work-4.jpg" class="rounded">
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <p class="d-inline-block me-2 mb-0"><b>Professional Liability</b></p>
+                  <img src="assets/img/work-2.jpg" class="rounded">
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <p class="d-inline-block me-3 mb-0"><b>Dedicated to clients</b></p>
+                  <img src="assets/img/work-7.jpg" class="rounded">
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+              <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mx-0 py-5 about">
+      <div class="col-md-10 my-5 d-flex justify-content-between">
+        <div class="w-50 pe-1 d-flex flex-column align-items-center">
+          <div>
+            <h1 class="fs-5 text-uppercase fw-bold text-orange">about us</h1>
+            <h2 class="fw-bold fs-1">Best Provider for Industrial Services</h2>
+            <p class="fw-bold fs-5">We are a unique company dedicated to our clients</p>
+            <div class="d-flex justify-content-between mission">
+              <button class="btn btn-light active fw-bold">Our mission</button>
+              <button class="btn btn-light fw-bold">Our vision</button>
+              <button class="btn btn-light fw-bold">Our value</button>
+            </div>
+            <div class="card mt-2 mb-5">
+              <div class="card-body">
+                <p class="card-text">We are an expert group in architectural design and interior design with a residential approach, where we generate creatve, authentic and innovative solutions, achieving results that exceed the expectations of each client.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-dark mx-auto text-uppercase">contact us!</button>
+        </div>
+        <div class="services">
+          <h1 class="fs-5 text-uppercase fw-bold text-orange">services</h1>
+          <h2 class="fw-bold fs-1">know what we offer you</h2>
+          <div class="d-flex flex-column">
+            <div class="service interior d-flex align-items-start p-3">
+              <span class="relative d-inline-block mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                  <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+                </svg>
+              </span>
+              <div class="px-3">
+                <h5 class="fw-bold">Plumbing</h5>
+                <p>We help you repair your plumbing. Our service is of quality</p>
+              </div>
+            </div>
+            <div class="service plumbing d-flex align-items-start p-3">
+              <span class="relative d-inline-block mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                  <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+                </svg>
+              </span>
+              <div class="px-3">
+                <h5 class="fw-bold">Plumbing</h5>
+                <p>We help you repair your plumbing. Our service is of quality</p>
+              </div>
+            </div>
+            <div class="service painting d-flex align-items-start p-3">
+              <span class="relative d-inline-block mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                  <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+                </svg>
+              </span>
+              <div class="px-3">
+                <h5 class="fw-bold">Plumbing</h5>
+                <p>We help you repair your plumbing. Our service is of quality</p>
+              </div>
             </div>
           </div>
         </div>
@@ -124,7 +223,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- Bootstrap -->
   <script type="text/javascript" src="plugins/bootstrap-5.0.0-beta1-dist/js/bootstrap.js"></script>
