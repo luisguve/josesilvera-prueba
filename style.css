@@ -40,7 +40,7 @@ body {
   z-index: 2;
 }
 
-svg {
+.fas {
   position: absolute;
   color: white;
   z-index: 3;
@@ -152,12 +152,16 @@ hr.decorative {
   width: 70px;
   height: 90px;
   background: var(--orange);
-  top: 50%;
+  top: calc(50% - 40px);
   left: 46%;
   z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.why-us i.fas {
+  font-size: 30px;
 }
 
 .why-us h2 {
@@ -187,6 +191,12 @@ hr.decorative {
   width: 35%;
 }*/
 
+.service i.fas {
+  bottom: 4px;
+  left: 2px;
+  font-size: 30px;
+}
+
 .service.interior {
   color: black;
   background: #ececec;
@@ -197,7 +207,7 @@ hr.decorative {
 .service.interior .relative::after {
   border-color: grey;
 }
-.service.interior svg {
+.service.interior i.fas {
   color: #030e27;
 }
 
@@ -208,7 +218,7 @@ hr.decorative {
 .service.plumbing .relative::before {
   background: white;
 }
-.service.plumbing svg {
+.service.plumbing i.fas {
   color: #030e27;
 }
 
@@ -219,7 +229,7 @@ hr.decorative {
 .service.painting .relative::before {
   background: #363e51;
 }
-.service.painting svg {
+.service.painting i.fas {
   color: var(--orange-2);
 }
 
@@ -269,13 +279,21 @@ hr.decorative {
   bottom: -25px;
 }
 
-.testimonials input:focus[type="radio"] {
+input:focus[type="radio"] {
   box-shadow: none;
 }
 
-.testimonials input:checked[type="radio"] {
+.about input:checked[type="radio"] {
+  border: 2px solid lightgrey;
+}
+.about input[type="radio"] {
+  background-image: none!important;
+  background: #eee;
+}
+
+input:checked[type="radio"] {
   border: 2px solid white;
-  background-image: none;
+  background-image: none!important;
   background: #fca62c;
 }
 
@@ -329,8 +347,8 @@ footer img {
   }
 }
 
-@media screen and (min-width: 768px) {
-  /*.w-md-50 {
-    width: 50%!important;
-  }*/
+@media screen and (min-width: 992px) {
+  .fs-lg-1 {
+    font-size: calc(1.375rem + 1.5vw)!important;
+  }
 }

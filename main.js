@@ -30,20 +30,9 @@ let testimonialsPic = document.querySelector(".testimonials img");
 let testimonialsButtons = document.querySelectorAll(".testimonials input");
 
 for (let i = testimonialsButtons.length - 1; i >= 0; i--) {
-	testimonialsButtons[i].onclick = e => {
-		e.preventDefault();
-		let pic = e.target.dataset["pic"];
+	testimonialsButtons[i].onchange = function() {
+		let pic = this.dataset["pic"];
 		// Replace pic
 		testimonialsPic.setAttribute("src", `assets/img/${pic}.jpg`);
-		// Update checked
-		for (let i = testimonialsButtons.length - 1; i >= 0; i--) {
-			if (testimonialsButtons[i].checked) {
-				console.log("got it:", testimonialsButtons[i]);
-				testimonialsButtons[i].checked = false;
-				break;
-			}
-		}
-		e.target.check = true;
-		console.log(e.target);
 	}
 }
