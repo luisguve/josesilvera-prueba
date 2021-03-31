@@ -188,13 +188,13 @@
             <h2 class="fw-bold fs-1">Best Provider for Industrial Services</h2>
             <p class="fw-bold fs-5">We are a unique company dedicated to our clients</p>
             <div class="d-flex justify-content-between mission">
-              <button class="btn btn-light active fw-bold">Our mission</button>
-              <button class="btn btn-light fw-bold">Our vision</button>
-              <button class="btn btn-light fw-bold">Our value</button>
+              <button class="btn btn-light mission active fw-bold" data-content="mission">Our mission</button>
+              <button class="btn btn-light vision fw-bold" data-content="vision">Our vision</button>
+              <button class="btn btn-light value fw-bold" data-content="value">Our value</button>
             </div>
             <div class="card mt-2">
               <div class="card-body">
-                <p class="card-text">We are an expert group in architectural design and interior design with a residential approach, where we generate creatve, authentic and innovative solutions, achieving results that exceed the expectations of each client.</p>
+                <p class="card-text" id="mission-content">We are an expert group in architectural design and interior design with a residential approach, where we generate creatve, authentic and innovative solutions, achieving results that exceed the expectations of each client.</p>
               </div>
             </div>
           </div>
@@ -286,11 +286,11 @@
                 <div class="w-75 rounded text-orange bg-light py-3 text-center name"><em class="text-uppercase fw-bold fs-6">jeff freshman</em></div>
               </div>
               <div class="d-flex mt-4 pt-3">
-                <input class="form-check-input mx-1" type="radio" checked name="person" id="person-1">
-                <input class="form-check-input mx-1" type="radio" name="person" id="person-2">
-                <input class="form-check-input mx-1" type="radio" name="person" id="person-3">
-                <input class="form-check-input mx-1" type="radio" name="person" id="person-4">
-                <input class="form-check-input mx-1" type="radio" name="person" id="person-5">
+                <input class="form-check-input mx-1" type="radio" checked name="person" data-pic="person_1">
+                <input class="form-check-input mx-1" type="radio" name="person" data-pic="person_2">
+                <input class="form-check-input mx-1" type="radio" name="person" data-pic="person_3">
+                <input class="form-check-input mx-1" type="radio" name="person" data-pic="person_4">
+                <input class="form-check-input mx-1" type="radio" name="person" data-pic="person_5">
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@
       </div>
     </div>
     <div class="row justify-content-center mx-0 py-5 social">
-      <div class="col-lg-10 my-5 px-0 row">
+      <div class="col-md-10 my-5 px-0 row">
         <div class="col-md-6">
           <h1 class="fs-5 text-uppercase fw-bold text-orange">our social media</h1>
           <h2 class="fw-bold fs-1 mb-3">Follow us on Social Media</h2>
@@ -375,7 +375,6 @@
   <!-- jQuery -->
   <script type="text/javascript" src="plugins/jquery/jquery-3.5.1.js"></script>
 
-  <script src="main.js">
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>

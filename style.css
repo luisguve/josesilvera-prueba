@@ -1,11 +1,11 @@
 :root {
   --orange: #fe5f28;
   --orange-2: #fb7400;
-  --bs-font-sans-serif: sans-serif;
 }
 
 body {
   background: white;
+  font-family: sans-serif!important;
 }
 
 .navbar-info {
