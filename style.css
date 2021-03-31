@@ -110,7 +110,6 @@ hr.decorative {
 
 .hero {
   width: 100%;
-  height: 70vh;
   overflow: hidden;;
   position: relative;
 }
@@ -217,4 +216,56 @@ hr.decorative {
 }
 .service.painting svg {
   color: var(--orange-2);
+}
+
+.projects {
+  background: #1e263b;
+}
+
+.projects button {
+  background: #091326;
+}
+
+.testimonials .content {
+  background: url(assets/img/bg_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonials .overlay {
+  background: rgba(30, 38, 59, 0.9);
+}
+
+.testimonials .pic {
+  position: relative;
+}
+
+.testimonials .pic img {
+  opacity: 0.7;
+}
+
+.testimonials .play-icon {
+  width: 100px;
+  height: 100px;
+  background: var(--orange);
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+}
+
+.testimonials .name {
+  position: absolute;
+  left: 12.5%;
+  bottom: -25px;
+}
+
+.testimonials input:focus[type="radio"] {
+  box-shadow: none;
+}
+
+.testimonials input:checked[type="radio"] {
+  border: 2px solid white;
+  background-image: none;
+  background: #fca62c;
 }
